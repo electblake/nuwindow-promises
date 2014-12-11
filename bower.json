@@ -1,0 +1,27 @@
+{
+  "name": "nuwindow-promise",
+  "version": "0.0.1",
+  "description": "open new window popups, with $q.promises (great for social sharing)",
+  "authors": [
+    "electblake <electblake@gmail.com>"
+  ],
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/bower_components",
+    "test",
+    "tests",
+    ".gitignore",
+    ".jshintignore",
+    ".jshintrc",
+    "bower.json",
+    "Gruntfile.js",
+    "package.json",
+    "README.md"
+  ]
+}
