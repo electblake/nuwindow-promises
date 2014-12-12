@@ -1,3 +1,11 @@
+### 0.0.3 (2014-12-12)
+
+
+#### Bug Fixes
+
+* **devops:** added release-it config, and updated git dotfile ignores ([cb94618f](https://github.com/electblake/nuwindow-promises/commit/cb94618f6cfb9574b4baf4172a9596f330f4202b))
+
+
 ### 0.0.2 (2014-12-12)
 
 
