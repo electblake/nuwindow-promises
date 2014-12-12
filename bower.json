@@ -1,6 +1,6 @@
 {
   "name": "nuwindow-promise",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "create popup style windows with promises support (great for social sharing)",
   "homepage": "https://github.com/electblake/nuwindow-promises",
   "authors": [
