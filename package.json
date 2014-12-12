@@ -1,7 +1,8 @@
 {
   "name": "nuwindow-promise",
   "version": "0.0.1",
-  "description": "open new window popups, with $q.promises (great for social sharing)",
+  "description": "create popup style windows with promises support (great for social sharing)",
+  "homepage": "https://github.com/electblake/nuwindow-promises",
   "main": "Gruntfile.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
