@@ -1,3 +1,11 @@
+### 0.0.8 (2014-12-15)
+
+
+#### Bug Fixes
+
+* **package:** renamed package to match repo to match install folder et al. ([8a8f3b99](https://github.com/electblake/nuwindow-promises/commit/8a8f3b996e1e28831f7d1459d86f74f3658b00b2))
+
+
 ### 0.0.7 (2014-12-15)
 
 
