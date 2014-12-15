@@ -1,3 +1,11 @@
+### 0.0.7 (2014-12-15)
+
+
+#### Features
+
+* **position:** added automatic window centering ([3d24a506](https://github.com/electblake/nuwindow-promises/commit/3d24a506d61bbfb775e142fcf6b34468547a5244))
+
+
 ### 0.0.6 (2014-12-15)
 
 
