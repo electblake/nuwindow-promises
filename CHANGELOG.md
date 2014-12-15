@@ -1,3 +1,11 @@
+### 0.0.6 (2014-12-15)
+
+
+#### Features
+
+* **position:** windows now open centered on screen ([e7a5a31a](https://github.com/electblake/nuwindow-promises/commit/e7a5a31ac660a660c516f33b3e96e8ab90754fcb))
+
+
 ### 0.0.3 (2014-12-12)
 
 
