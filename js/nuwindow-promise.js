@@ -26,6 +26,12 @@
         };
 
         options = _.defaults(_defaults, options);
+        
+        var _position = {
+            left: (screen.width/2) - (options.width / 2),
+            top: (screen.height/2) - (options.height / 2)
+        };
+        options = _.extend(options, _position);
 
         var specs = [];
         if (options) {
