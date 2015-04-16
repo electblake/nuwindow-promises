@@ -17,32 +17,39 @@
     // Just return a value to define the module export.
     // This example returns an object, but the module
     // can return a function as the exported value.
-    var _ = window._;
-    var nuWindow = function(name, url, options) {
+    // var _ = window._;
+
+    if (!_) {
+        throw new Error('[nuWindow] Lodash is required.');
+    }
+
+    function nuWindow(name, url, options) {
 
         var _defaults = {
-          width: 520,
-          height: 350
+            width: 520,
+            height: 350
         };
 
-        options = _.defaults(_defaults, options);
+        this.options = _.defaults(_defaults, options);
         
         var _position = {
-            left: (screen.width/2) - (options.width / 2),
-            top: (screen.height/2) - (options.height / 2)
+            left: (screen.width/2) - (this.options.width / 2),
+            top: (screen.height/2) - (this.options.height / 2)
         };
-        options = _.extend(options, _position);
+
+        this.options = _.extend(this.options, _position);
 
         var specs = [];
-        if (options) {
-            _.forIn(options, function(element, index) {
+        if (this.options) {
+            _.forIn(this.options, function(element, index) {
                 specs.push(index+'='+element);
             });
         }
 
         var optString = specs.join(', ');
         
-        console.log('nuWindow optString', optString);
+        console.info('[nuWindow] specs', optString);
+
         var thisWindow = window.open(url, name, optString);
 
         var promise = new Promise(function(resolve, reject) {
@@ -57,6 +64,8 @@
                 reject(err);
             }
         });
+
+        promise.window = thisWindow;
         
         return promise;
     };
