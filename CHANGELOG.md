@@ -1,3 +1,11 @@
+## 0.1.0 (2015-04-16)
+
+
+#### Features
+
+* **gulp:** migrated to gulp quickltime because gulp is dope. ([58ddc535](https://github.com/electblake/nuwindow-promises/commit/58ddc53596dcf18d0d1354e7b1130c86863df6ba))
+
+
 ### 0.0.8 (2014-12-15)
 
 
